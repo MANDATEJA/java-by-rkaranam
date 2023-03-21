@@ -1,0 +1,113 @@
+for ( int i = 1; i <= 10; i++ ) {
+    System.out.printf("7 * %d = %d", i, 7 * i).println();
+}
+for ( int i = 1; i <= 10; i++ ) {
+    System.out.printf("6 * %d = %d", i, 6 * i).println();
+}
+for ( int i = 1; i <= 10; i++ ) {
+    System.out.printf("10 * %d = %d", i, 10 * i).println();
+}
+for ( int i = 1; i <= 10; i++ ) {
+    System.out.println(i);
+}
+for ( int i = 10; i <= 1; i-- ) {
+    System.out.println(i);
+}
+for ( int i = 10; i >= 1; i-- ) {
+    System.out.println(i);
+}
+for ( int i = 1; i <= 10; i++ ) {
+    System.out.printf("Square of %d", i, i * i).println();
+}
+for ( int i = 1; i <= 10; i++ ) {
+    System.out.printf("Square of %d = %d", i, i * i).println();
+}
+for ( int i = 1; i <= 10; i++ ) {
+    System.out.printf("Square of %d = %d", i, i * i).println();
+}
+for ( int i = 1; i <= 10; i++ ) {
+    if ( i % 2 == 0 ) {
+        System.out.printf("Square of %d = %d", i, i * i).println();
+    }
+}
+for ( int i = 1; i <= 10; i++ ) {
+    if ( i % 2 != 0 ) {
+        System.out.printf("Square of %d = %d", i, i * i).println();
+    }
+}
+for ( int i = 1; i <= 20; i++ ) {
+    if ( i % 2 != 0 ) {
+        System.out.printf("Square of %d = %d", i, i * i).println();
+    }
+}
+for ( int i = 1; i <= 20; i++ ) {
+    if ( i % 2 == 0 ) {
+        System.out.printf("Square of %d = %d", i, i * i).println();
+    }
+}
+sayHelloWorldTwice();
+void sayHelloWorldTwice() {
+    System.out.println("Hello World!");
+    System.out.println("Hello World!");
+}
+sayHelloWorldTwice();
+sayHelloWorld(6);
+sayHelloWorld(6);
+sayHelloWorld(3);
+void sayHelloWorld(int noOfTimes) {
+    for(int i = 0; i < noOfTimes; i++) {
+        System.out.println("Hello World");
+    }
+}
+sayHelloWorld(6);
+sayHelloWorld(3);
+void printNumbers(int n) {
+    for(int i = 1; i<= n; i++){
+        System.out.println(i);
+    }
+}
+printNumbers(6);
+printNumbers(12);
+void printSquaresOfNumbers(int n) {
+    for(int i = 1; i <= n; i++) {
+        System.out.printf("Square of %d is %d", i, i * i).println();
+    }
+}
+printSquaresOfNumbers(6);
+printSquaresOfNumbers(12);
+void printMultiplicationTable(int table) {
+    for(int i = 1; i <= 10; i++) {
+        System.out.printf("%d * %d = %d", table, i, table * i).println();
+    }
+}
+printMultiplicationTable(6);
+printMultiplicationTable(5);
+printMultiplicationTable(11);
+printMultiplicationTable(19);
+void printSum(int a, int b) {
+    System.out.println(a + b);
+}
+printSum(3, 3);
+int sumOfTwoNumbers(int firstNumber, int secondNumber) {
+    return firstNumber + secondNumber;
+}
+int sum = sumOfTwoNumbers(3, 3);
+thirdAngleInTriangle(60, 45);
+int thirdAngleInTriangle(int angleA, int angleB) {
+    int angleC = 180 - (angleA + angleB);
+    if ( angleC > 0 ) {
+      return angleC;
+    }
+    return -1;
+}
+thirdAngleInTriangle(60, 45);
+thirdAngleInTriangle(170, 45);
+class Planet {
+    void revolve() {
+        System.out.println("Revolving around Sun");
+    }
+}
+Planet earth = new Planet();
+earth.revolve();
+Planet mars = new Planet();
+mars.revolve();

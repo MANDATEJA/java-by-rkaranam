@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Inline local variable &apos;com.teja.arrays.StudentRunner.main(...).marks&apos; in &apos;com.teja.arrays.StudentRunner.main(...)&apos;&#x0A;- Original project: &apos;rest-of-course&apos;&#x0A;- Original element: &apos;com.teja.arrays.StudentRunner.main(...).marks&apos;" description="Inline local variable &apos;marks&apos;" id="org.eclipse.jdt.ui.inline.temp" input="/src&lt;com.teja.arrays{StudentRunner.java" selection="136 5" stamp="1675228129842" version="1.0"/>
+</session>

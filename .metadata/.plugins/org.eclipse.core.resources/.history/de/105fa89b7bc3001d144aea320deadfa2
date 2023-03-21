@@ -1,0 +1,5 @@
+package com.teja.learnspringboot.course.bean;
+
+public class Course {
+
+}

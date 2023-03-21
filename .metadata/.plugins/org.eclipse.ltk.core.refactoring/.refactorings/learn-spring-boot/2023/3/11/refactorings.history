@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;course&apos; from expression &apos;repository.findById(id)&apos;&#x0A;- Original project: &apos;learn-spring-boot&apos;&#x0A;- Variable name: &apos;course&apos;&#x0A;- Destination method: &apos;com.teja.learnspringboot.course.controller.CourseController.getOneCourse(...)&apos;&#x0A;- Variable expression: &apos;repository.findById(id)&apos;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;course&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.teja.learnspringboot.course.controller{CourseController.java" name="course" replace="true" selection="930 23" stamp="1679157803547" varType="false" version="1.0"/>
+</session>

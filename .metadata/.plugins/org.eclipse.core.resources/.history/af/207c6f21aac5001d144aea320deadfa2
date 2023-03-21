@@ -1,0 +1,5 @@
+package com.teja.learnspringboot.course.repository;
+
+public interface CourseRepository {
+
+}
